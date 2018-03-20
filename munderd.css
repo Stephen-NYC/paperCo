@@ -1,0 +1,67 @@
+h1{
+    line-height: 2;
+    color: green;
+    margin: 0 0;
+    background-color: rgba(57, 117, 42, 0.096);
+  }
+
+.background{
+    opacity: .7;
+    width: 100%;
+    height: 750px;
+    background-origin: border-box;
+}
+body{
+    background-color: rgba(41, 37, 37, 0.548);
+    
+}
+.header {
+    overflow: hidden;
+    background-color: #00000059;
+    padding: 20px 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: rgba(255, 255, 255, 0.719);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 33px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .header a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 0);
+  }
+  
+  .header a.active {
+    opacity: .7;
+    background-color: rgba(0, 255, 0, 0.425);
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
