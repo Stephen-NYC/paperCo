@@ -263,7 +263,7 @@ body{
   height: 250px;
   width: 240px;
   position: absolute;
-  right: 140px;
+  right: 120px;
   margin-left: 900px;
   margin-top: -490px;
 
@@ -312,8 +312,67 @@ body{
 .hemprolls{
 
 }
-h4{
+.samplepack{
   font-weight: bold;
   font-family: 'Titillium Web', sans-serif;
-  font-size: 20px;  
+  font-size: 20px;
+  border-style: solid;
+  border-top: black;
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 120px;
+  width: 240px;
+  background-color: antiquewhite;
+}
+.hemppad{
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  border-style: solid;
+  border-top: black;
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 350px;
+  width: 240px;
+  background-color: antiquewhite;
+}
+
+.journals{
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  border-style: solid;
+  border-top: black;
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 580px;
+  width: 240px;
+
+  background-color: antiquewhite;
+
+}
+.hempcard{
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  border-style: solid;
+  border-top: black;
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 820px;
+  width: 240px;
+  background-color: antiquewhite;
+}
+
+.wholesale{
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  border-style: solid;
+  border-top: black;
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 1050px;
+  width: 240px;
+  background-color: antiquewhite;
 }
