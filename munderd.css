@@ -49,7 +49,7 @@ p{
 
 .hempfactory{
     position: absolute;
-    opacity: .9;
+    opacity: 1;
     height: 520px;
     width: 57%;
     margin-top: 80px;
@@ -65,30 +65,40 @@ p{
 }
 
 .background{
-    position:
-    opacity: 1;
+    margin-bottom: -5px;
+    position: ;
     width: 100%;
-    height: 700px;
+    height: 750px;
     background-origin: inherit;
 }
 .background2{
+  margin-bottom: -5px;
   opacity: .7;
   width: 100%;
-  height: 700px;
+  height: 750px;
   background-origin: inherit;
 }
 
 .background3{
+  margin-bottom: -25px;
   opacity: .79;
   width: 100%;
-  height: 700px;
+  height: 750px;
   background-origin: inherit;
+}
+
+.products{
+  opacity: .75;
+  margin-top: -25px;
+  height: 800px;
+  width: 100%;
+  margin: 0px;
+  top: 100px;
 }
 
 
 body{
-    background-color: rgba(255, 255, 255, 0);
-    margin: 0px;
+    margin: -5px -5px -5px -5px;
     width: 100%;
     
 }
@@ -157,12 +167,12 @@ body{
   padding-top: 60px;
 }
 
-.hemp1{
+.march10{
   height: 280px;
   width: 35%;
   position: absolute;
   right: 890px;
-  margin-top: -560px;
+  margin-top: -575px;
 }
 .hemp2{
   height: 220px;
@@ -211,7 +221,7 @@ body{
   position: absolute;
   right: 25px;
   margin-left: 300px;
-  margin-top: -450px;
+  margin-top: -500px;
 
 
 }
@@ -222,4 +232,88 @@ body{
   right: 460px;
   margin-left: 300px;
   margin-top: -375px;
+}
+
+.items{
+  position: absolute;
+  font-size: 60px;
+  font-family: 'Limelight', cursive;
+  color: rgb(0, 0, 0);
+  border-style: solid;
+  border-right: rgb(0, 0, 0);
+  border-radius: 3px;
+  padding: 25px 25px 25px 25px;
+  margin-top: -720px;
+  right: 500px;
+
+}
+  
+
+
+.producttitle{
+  opacity: .7;
+  height: 200px;
+  width: 60%;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -750px;
+}
+
+.hemppaper{
+  height: 250px;
+  width: 240px;
+  position: absolute;
+  right: 140px;
+  margin-left: 900px;
+  margin-top: -490px;
+
+}
+
+.hempcards{
+  height: 250px;
+  width: 240px;
+  position: absolute;
+  right: 370px;
+  margin-left: 300px;
+  margin-top: -490px;
+
+}
+
+.sketchbooks{
+  height: 250px;
+  width: 240px;
+  position: absolute;
+  right: 610px;
+  margin-left: 300px;
+  margin-top: -490px;
+
+}
+
+.hemppads{
+  height: 250px;
+  width: 240px;
+  position: absolute;
+  right: 850px;
+  margin-left: 300px;
+  margin-top: -490px;
+
+}
+
+.samplekit{
+  opacity: 1;
+  height: 250px;
+  width: 240px;
+  position: absolute;
+  right: 1090px;
+  margin-left: 300px;
+  margin-top: -490px;
+
+}
+.hemprolls{
+
+}
+h4{
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;  
 }
