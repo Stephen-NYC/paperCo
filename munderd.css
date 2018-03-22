@@ -1,11 +1,12 @@
 h1{
     position: absolute;
     top: 160px;
-    margin-left: 45%;
+    margin-left: 50%;
     left: 250px;
     width: 200px;
     font-size: 36px;
     font-family: 'Limelight', cursive;
+    font-weight: 900;
     color: rgb(0, 0, 0);
     border-style: solid;
     border-right: rgb(0, 0, 0);
@@ -21,7 +22,7 @@ h2{
   right: 40%;
   font-family: 'Limelight', cursive;
   font-size: 40px;
-  color: black;
+  color: rgba(26, 69, 133, 0.753);
   opacity: 1;
   padding: 25px 25px 25px 25px;
   
@@ -48,9 +49,9 @@ p{
 
 .hempfactory{
     position: absolute;
-    opacity: .85;
+    opacity: .9;
     height: 520px;
-    width: 50%;
+    width: 57%;
     margin-top: 80px;
     margin-left: 130px;
 
@@ -161,15 +162,15 @@ body{
   width: 35%;
   position: absolute;
   right: 890px;
-  margin-top: -350px;
+  margin-top: -560px;
 }
 .hemp2{
-  height: 280px;
-  width: 280px;
+  height: 220px;
+  width: 40%;
   position: absolute;
-  right: 200px;
+  right: 850px;
   margin-left: 300px;
-  margin-top: 500px;
+  margin-top: -275px;
 }
 .hemp3{
   height: 280px;
@@ -188,7 +189,7 @@ body{
   margin-top: -680px;
 }
 .hemp5{
-  height: 280px;
+  height: 320px;
   width: 30%;
   position: absolute;
   right: 30px;
