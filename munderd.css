@@ -1,43 +1,104 @@
 h1{
     position: absolute;
-    top: 200px;
-    margin-right: 80%;
+    top: 160px;
     margin-left: 45%;
     left: 250px;
     width: 200px;
     font-size: 36px;
     font-family: 'Limelight', cursive;
     color: rgb(0, 0, 0);
-    background-color: rgba(57, 117, 42, 0.096);
-    border-color: black;
     border-style: solid;
     border-right: rgb(0, 0, 0);
+    border-radius: 3px;
     padding: 25px 25px 25px 25px;
+    
   }
+
+h2{
+  position: absolute;
+  margin-right: 100px;
+  top: 870px;
+  right: 40%;
+  font-family: 'Limelight', cursive;
+  font-size: 40px;
+  color: black;
+  opacity: 1;
+  padding: 25px 25px 25px 25px;
+  
+}
+
+p{
+    position: absolute;
+    margin-right: 200px;
+    top: 950px;
+    right: 100px;
+    font-family: 'Limelight', cursive;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    padding: 45px 45px;
+
+}
 
 .logo{
     margin-left: 200px;
 }
 
+.hempfactory{
+    position: absolute;
+    opacity: .85;
+    height: 550px;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 130px;
+
+}
+
+.natural{
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 50px;
+    height: 400px;
+}
+
 .background{
-    opacity: .9;
+    position:
+    opacity: 1;
     width: 100%;
     height: 700px;
-    background-origin: border-box;
+    background-origin: inherit;
 }
+.background2{
+  opacity: .7;
+  width: 100%;
+  height: 700px;
+  background-origin: inherit;
+}
+
+.background3{
+  opacity: .79;
+  width: 100%;
+  height: 700px;
+  background-origin: inherit;
+}
+
+
 body{
-    background-color: rgba(0, 0, 0, 0.747);
-    opacity: .9;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0px;
+    width: 100%;
     
 }
-.header {
+#header {
     overflow: hidden;
     background-color: #000000c4;
     padding: 20px 20px 20px 20px;
     font-family: 'Limelight', cursive;
   }
   
-.header a {
+#header a {
     float: left;
     color: rgba(255, 255, 255, 0.603);
     text-align: center;
@@ -45,29 +106,29 @@ body{
     text-decoration: none;
     font-size: 20px; 
     line-height: 25px;
-    border-radius: 4px;
+    border-radius: 30px;
   }
   
-  .header a.logo {
+  #header a.logo {
     font-size: 38px;
     font-weight: bold;
     font-family: 'Limelight', cursive;
+    margin-left: 50px;
   }
   
-  .header a:hover {
+  #header a:hover {
     background-color: rgb(0, 0, 0);
     color: rgb(139, 134, 110);
   }
   
-  .header a.active {
+  #header a.active {
     opacity: .7;
     background-color:rgb(139, 134, 110);
-    color: black;
+    color: rgb(247, 247, 247);
   }
   
-  .header-right {
+  #header-right {
     float: left;
-    margin-right: 20%;
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
@@ -81,4 +142,84 @@ body{
       float: none;
     }
   }
-  .colorbackground{}
+.active{
+  margin-left: 90px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.hemp1{
+  height: 280px;
+  width: 280px;
+  position: absolute;
+  right: 900px;
+  margin-left: 300px;
+  margin-top: -400px;
+}
+.hemp2{
+  height: 280px;
+  width: 280px;
+  position: absolute;
+  right: 200px;
+  margin-left: 300px;
+  margin-top: 500px;
+}
+.hemp3{
+  height: 280px;
+  width: 280px;
+  position: absolute;
+  right: 500px;
+  margin-left: 300px;
+  margin-top: -675px;
+}
+.hemp4{
+  height: 280px;
+  width: 280px;
+  position: absolute;
+  right: 800px;
+  margin-left: 300px;
+  margin-top: -675px;
+}
+.hemp5{
+  height: 280px;
+  width: 280px;
+  position: absolute;
+  right: 200px;
+  margin-left: 300px;
+  margin-top: -400px;
+}
+.hemp6{
+  height: 280px;
+  width: 280px;
+  position: absolute;
+  right: 200px;
+  margin-left: 300px;
+  margin-top: -675px;
+}
+.hemp7{
+  opacity: .85;
+  height: 300px;
+  width: 320px;
+  position: absolute;
+  right: 20px;
+  margin-left: 300px;
+  margin-top: -450px;
+
+
+}
+.hemp8{
+  height: 280px;
+  width: 280px;
+  position: absolute;
+  right: 600px;
+  margin-left: 300px;
+  margin-top: -350px;
+}
