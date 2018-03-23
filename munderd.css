@@ -167,7 +167,7 @@ body{
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 
 
@@ -388,3 +388,42 @@ body{
   background-color: antiquewhite;
 }
 
+h5{
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Limelight', cursive;
+
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 20px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: rgba(23, 42, 128, 0.76);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #20cc53;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgba(26, 69, 133, 0.753);
+  padding: 20px;
+  width: 50%;
+  margin-left: 25%;
+  font-family: 'Titillium Web', sans-serif;
+
+}
