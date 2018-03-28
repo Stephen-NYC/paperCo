@@ -1,15 +1,14 @@
 h1{
     position: absolute;
-    top: 160px;
+    top: 205px;
     margin-left: 50%;
     left: 250px;
     width: 200px;
     font-size: 36px;
     font-family: 'Limelight', cursive;
-    font-weight: 900;
     color: rgb(0, 0, 0);
     border-style: solid;
-    border-right: rgb(0, 0, 0);
+    border-left: rgb(0, 0, 0);
     border-radius: 3px;
     padding: 25px 25px 25px 25px;
     
@@ -18,11 +17,11 @@ h1{
 h2{
   position: absolute;
   margin-right: 100px;
-  top: 870px;
+  top: 970px;
   right: 40%;
   font-family: 'Limelight', cursive;
   font-size: 40px;
-  color: rgba(26, 69, 133, 0.753);
+  color: rgba(26, 69, 133, 0.932);
   opacity: 1;
   padding: 25px 25px 25px 25px;
   
@@ -31,8 +30,9 @@ h2{
 p{
     position: absolute;
     margin-right: 200px;
-    top: 950px;
-    right: 100px;
+    width: 60%;
+    top: 1050px;
+    right: 150px;
     font-family: 'Limelight', cursive;
     text-align: left;
     font-size: 22px;
@@ -50,49 +50,49 @@ p{
 .hempfactory{
     position: absolute;
     opacity: .95;
-    height: 520px;
+    height: 540px;
     width: 57%;
-    margin-top: 80px;
+    margin-top: 130px;
     margin-left: 130px;
 
 }
 
 .natural{
     position: absolute;
-    margin-top: 750px;
+    margin-top: 850px;
     margin-left: 50px;
     height: 400px;
 }
 
 .recycle{
-  margin-left: 1030px;
-  margin-top: 0px;
-  opacity: .65;
+  margin-left: 960px;
+  margin-top: -700px;
+  opacity: .75;
   position: absolute;
-  height: 400px;
-  width: 400px;
+  height: 420px;
+  width: 420px;
 
 }
 .background{
     margin-bottom: -5px;
-    position: ;
+    /* position: ; */
     width: 100%;
-    height: 750px;
+    height: 800px;
     background-origin: inherit;
 }
 .background2{
   margin-bottom: -5px;
   opacity: .7;
   width: 100%;
-  height: 750px;
+  height: 800px;
   background-origin: inherit;
 }
 
 .background3{
   margin-bottom: -25px;
-  opacity: .9;
+  opacity: .8;
   width: 100%;
-  height: 750px;
+  height: 800px;
   background-origin: inherit;
 }
 
@@ -107,7 +107,8 @@ p{
 
 
 body{
-    margin: -5px -5px -5px -5px;
+    /* margin: -5px -5px -5px -5px; */
+    margin: 0px;
     width: 100%;
     
 }
@@ -176,16 +177,22 @@ body{
 }
 
 .hemphasis{
-  opacity: .8;
-}
-.march10{
-  height: 280px;
-  width: 35%;
   position: absolute;
-  right: 890px;
-  margin-top: -685px;
+  opacity: 1;
+  font-family: 'Limelight', cursive;
+  font-size: 50px;
+  color: rgba(26, 69, 133, 0.897);
+  margin-top: -750px;
+  margin-left: 500px;
 }
-.hemp2{
+
+.march10{
+  height: 200px;
+  position: absolute;
+  margin-left: 975px;
+  margin-top: -253px;
+}
+/* .hemp2{
   height: 220px;
   width: 40%;
   position: absolute;
@@ -216,33 +223,32 @@ body{
   right: 30px;
   margin-left: 300px;
   margin-top: -375px;
-}
-.hemp6{
-  height: 320px;
-  width: 30%;
+} */
+.hempfact1{
+  opacity: .9;
+  height: 650px;
   position: absolute;
-  right: 30px;
-  margin-left: 300px;
-  margin-top: -680px;
+  margin-top: -685px;
+  margin-left: 750px;
 }
+
 .hemp7{
-  opacity: .85;
+  opacity: .9;
   height: 300px;
   width: 320px;
   position: absolute;
   right: 25px;
   margin-left: 300px;
-  margin-top: -500px;
+  margin-top: -550px;
 
 
 }
-.hemp8{
-  height: 320px;
-  width: 30%;
+.hempfact2{
+  opacity: .85;
+  height: 650px;
   position: absolute;
-  right: 460px;
-  margin-left: 300px;
-  margin-top: -375px;
+  margin-top: -685px;
+  margin-left: 175px;
 }
 
 .items{
@@ -386,9 +392,13 @@ body{
   background-color: antiquewhite;
 }
 
+h4{
+}
+
 h5{
   font-size: 36px;
   text-align: center;
+  margin-right: 150px;
   font-family: 'Limelight', cursive;
 
 }
@@ -418,16 +428,16 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: rgba(26, 69, 133, 0.753);
+  background-color: rgba(26, 69, 133, 0.856);
   padding: 20px;
   width: 50%;
-  margin-left: 25%;
+  margin-left: 15%;
   font-family: 'Titillium Web', sans-serif;
 
 }
 h6{
   padding: 20px 20px 20px 20px;
-  background-color: rgba(26, 69, 133, 0.753);
+  background-color: rgba(26, 69, 133, 0.849);
   color: rgba(255, 255, 255, 0.603);
   border-top: black;
   margin-bottom: 0px;
