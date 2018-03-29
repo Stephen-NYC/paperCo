@@ -176,7 +176,7 @@ body{
   padding-top: 60px;
 }
 
-.hemphasis{
+#hemphasis{
   position: absolute;
   opacity: 1;
   font-family: 'Limelight', cursive;
