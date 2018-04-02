@@ -130,25 +130,25 @@ body{
     border-radius: 30px;
   }
   
-  #header a.logo {
+#header a.logo {
     font-size: 38px;
     font-weight: bold;
     font-family: 'Limelight', cursive;
     margin-left: 50px;
   }
   
-  #header a:hover {
+#header a:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgba(74, 230, 74, 0.767);
   }
   
-  #header a.active {
+#header a.active {
     opacity: .7;
     background-color:rgba(26, 69, 133, 0.753);
     color: rgb(247, 247, 247);
   }
   
-  #header-right {
+.header-right {
     float: left;
   }
   
@@ -162,9 +162,11 @@ body{
       float: none;
     }
   }
+  
 .active{
   margin-left: 90px;
 }
+
 .sticky {
   position: fixed;
   top: 0;
@@ -173,7 +175,7 @@ body{
 
 
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 #hemphasis{
