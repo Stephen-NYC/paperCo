@@ -4,6 +4,9 @@
 
 // this is a function that works on scroll. its sets the navbar/#header(id) to sticky once passed a certain part of the page and stickys it as you scroll down the page.
 
+
+window.onscroll = function() {myFunction()};
+
 let header = document.getElementById("header");
 
 let sticky = header.offsetTop;
