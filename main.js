@@ -6,7 +6,7 @@
 
 let header = document.getElementById("header");
 
-let sticky = navbar.offsetTop;
+let sticky = header.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
